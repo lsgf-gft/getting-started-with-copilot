@@ -1,3 +1,13 @@
+.delete-icon {
+  color: #e53935;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 8px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -154,10 +164,10 @@ footer {
   font-size: 14px;
 }
 
-.participants-list {
-  list-style: disc;
-  padding-left: 20px;
-  margin: 6px 0 0 0;
+  .participants-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 6px 0 0 0;
 }
 
 .participant-item {
